@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading unit tests should not render loading 1`] = `<div />`;
+
+exports[`Loading unit tests should render loading 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.c1 {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+.c2 {
+  position: relative;
+  height: 100%;
+  -webkit-animation: kZndMJ 2s infinite linear;
+  animation: kZndMJ 2s infinite linear;
+}
+
+.c2 circle {
+  -webkit-animation: 1.4s ease-in-out infinite both dbIXyf;
+  animation: 1.4s ease-in-out infinite both dbIXyf;
+  display: block;
+  fill: transparent;
+  stroke: #152E3B;
+  stroke-linecap: round;
+  stroke-dasharray: 283;
+  stroke-dashoffset: 280;
+  stroke-width: 10px;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+<div>
+  <div
+    class="c0"
+    height="400"
+  >
+    <div
+      class="c1"
+      height="50"
+      width="50"
+    >
+      <svg
+        class="c2"
+        color="secondary"
+        viewBox="0 0 100 100"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="50"
+          cy="50"
+          r="45"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

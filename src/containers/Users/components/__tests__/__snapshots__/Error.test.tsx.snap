@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error unit tests should not render Error 1`] = `<div />`;
+
+exports[`Error unit tests should render Error 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 400px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.c6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c4 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-left: 16px;
+  color: #d22d1d;
+  white-space: normal;
+}
+
+.c3 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+.c3[type="button"] .c2 {
+  cursor: pointer;
+}
+
+.c3 svg {
+  width: 20px;
+  height: 20px;
+  fill: #d22d1d;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  border-color: transparent;
+  background-color: #1DC2D2;
+  color: #FFFFFF;
+  padding: 12px 16px;
+  height: 40px;
+  width: auto;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: -webkit-transform 0.1s ease 0s,background 0.3s ease !important;
+  -webkit-transition: transform 0.1s ease 0s,background 0.3s ease !important;
+  transition: transform 0.1s ease 0s,background 0.3s ease !important;
+}
+
+.c5::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c5:hover::before {
+  background: rgba(255,255,255,0.1);
+}
+
+.c5:focus {
+  outline: none;
+}
+
+.c5:focus-visible::before {
+  background: rgba(50,50,50,0.05);
+  -webkit-transition: background 0.1s ease-in-out;
+  transition: background 0.1s ease-in-out;
+}
+
+.c5:active {
+  outline: none;
+  -webkit-transform: scale(0.96) !important;
+  -ms-transform: scale(0.96) !important;
+  transform: scale(0.96) !important;
+}
+
+.c5:active::before {
+  background: rgba(50,50,50,0.05);
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+
+.c5:disabled {
+  background-color: #CDD0D7;
+  cursor: default;
+}
+
+.c5:link,
+.c5:visited,
+.c5:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5[type="button"],
+.c5[type="reset"],
+.c5[type="submit"] {
+  -webkit-appearance: none;
+}
+
+<div>
+  <div
+    class="c0"
+    height="400"
+  >
+    <div
+      class="c1"
+    >
+      <i
+        class="c2 c3"
+        color="red500"
+      >
+        <svg
+          aria-hidden="true"
+          class="octicon octicon-alert"
+          fill="currentColor"
+          height="16"
+          role="img"
+          style="display: inline-block; user-select: none; vertical-align: text-bottom;"
+          viewBox="0 0 16 16"
+          width="16"
+        >
+          <path
+            d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </i>
+      <span
+        class="c4"
+        color="red500"
+        type="H24"
+      >
+        Oops, something went wrong!
+      </span>
+    </div>
+    <button
+      class="c5"
+      color="primary"
+      shape="rectangle"
+    >
+      <div
+        class="c6"
+      >
+        <s
+          style="position: absolute; border-radius: 50%; opacity: 0; width: 35px; height: 35px; transform: translate(-50%, -50%); pointer-events: none; background-color: rgba(255, 255, 255, 0.4);"
+        />
+      </div>
+      Refresh Page
+    </button>
+  </div>
+</div>
+`;

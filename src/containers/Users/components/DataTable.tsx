@@ -5,7 +5,7 @@ import Table from "../../../ui/Table";
 import useUsers from "../useUser";
 
 const DataTable = () => {
-  const {params, handleChangeSort, loading, users} = useUsers()
+  const { params, handleChangeSort, loading, users } = useUsers();
   return (
     <Table shadow round responsive>
       <thead>

@@ -30,7 +30,7 @@ const Provider: FC<{}> = ({ children }) => {
   );
 
   const handleChangeSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setKeyword(e.target.value ?? "");
+    setKeyword(e.target.value);
   };
 
   const handleSelectGender = (value: string) => {
